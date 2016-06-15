@@ -8,22 +8,40 @@ body {
 }
 
 h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #4A4B54;
+  font-size: 20px;
+}
+
+.title {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   color: #4A4B54;
   padding-left: 10px;
 }
 
-h2 {
+i {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  color: #4A4B54;
-  padding-left: 20px;
-  margin-top: -10px;
-  font-size: 20px;
-}
 
+}
 
 .navbar-inverse .navbar-brand {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
+}
+
+.note-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top:10px;
+  margin-bottom:15px;
+  padding:10px;
 }

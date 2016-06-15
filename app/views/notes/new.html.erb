@@ -1,0 +1,9 @@
+<div class="note-box col-xs-10 col-xs-offset-1">
+  <h1>Enter Your Note</h1>
+  <%= simple_form_for @note do |f| %>
+    <%= f.input :title %>
+    <%= f.input :entry %>
+    <br />
+    <%= f.submit 'Add Note', class: 'btn btn-info' %>
+  <% end %>
+</div>

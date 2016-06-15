@@ -1,2 +1,14 @@
-<h1>Welome to Notetaker</h1>
-<h2>Take notes. Share them with others!<h2>
+<h1 class="title">Welome to Notetaker</h1>
+<!-- <h2>Take notes. Share them with others!<h2> -->
+<hr />
+
+
+<% @notes.each do |note| %>
+  <div class="note-box col-xs-10 col-xs-offset-1">
+    <div>
+      <h2><%= note.title %></h2><br />
+      <i><%= note.entry %></i><br />
+      <br />
+    </div>
+  </div>
+<% end %>
